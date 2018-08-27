@@ -17,6 +17,7 @@ public class TestController {
         user.setId(1);
         user.setName("Wang");
         user.setAge(18);
+        System.out.println("sayHello");
         return user;
     }
 
